@@ -1,9 +1,9 @@
 {
   "name": "setbased/abc-page",
-  "description": "ABC Framework: Page",
+  "description": "ABC-Framework: Page",
   "keywords": [
-    "ABC Framework",
-    "page"
+    "ABC-Framework",
+    "Page"
   ],
   "require": {
     "php": ">=7.0.0"

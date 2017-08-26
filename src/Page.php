@@ -2,7 +2,6 @@
 //----------------------------------------------------------------------------------------------------------------------
 namespace SetBased\Abc\Page;
 
-//----------------------------------------------------------------------------------------------------------------------
 /**
  * Interface for pages.
  */
@@ -30,8 +29,7 @@ interface Page
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Echos the actual page content (i.e. the inner HTML of the body tag) and/or performs the actual payload of the page
-   * request.
+   * Echos the response to a (normal) HTTP request.
    *
    * @return void
    *
@@ -39,6 +37,17 @@ interface Page
    * @since 1.0.0
    */
   public function echoPage();
+
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
+   * Echos the response to an XMLHttpRequest (XHR) request.
+   *
+   * @return void
+   *
+   * @api
+   * @since 1.0.0
+   */
+  public function echoXhrResponse();
 
   //--------------------------------------------------------------------------------------------------------------------
   /**

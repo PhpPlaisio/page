@@ -1,5 +1,5 @@
 <?php
-//----------------------------------------------------------------------------------------------------------------------
+
 namespace SetBased\Abc\Page;
 
 /**
@@ -25,7 +25,7 @@ interface Page
    * @api
    * @since 1.0.0
    */
-  public function checkAuthorization();
+  public function checkAuthorization(): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -36,7 +36,7 @@ interface Page
    * @api
    * @since 1.0.0
    */
-  public function echoPage();
+  public function echoPage(): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -47,7 +47,7 @@ interface Page
    * @api
    * @since 1.0.0
    */
-  public function echoXhrResponse();
+  public function echoXhrResponse(): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -68,7 +68,7 @@ interface Page
    * @api
    * @since 1.0.0
    */
-  public function getPreferredUri();
+  public function getPreferredUri(): ?string;
 
   //--------------------------------------------------------------------------------------------------------------------
 }

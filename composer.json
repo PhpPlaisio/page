@@ -7,7 +7,7 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "setbased/abc-response": "dev-master"
+    "setbased/abc-response": "^1.0.0"
   },
   "license": "MIT",
   "autoload": {

@@ -6,9 +6,9 @@
     "Page"
   ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "setbased/abc-response": "dev-master"
   },
-  "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {

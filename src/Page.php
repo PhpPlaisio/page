@@ -1,6 +1,9 @@
 <?php
+declare(strict_types=1);
 
 namespace SetBased\Abc\Page;
+
+use SetBased\Abc\Response\Response;
 
 /**
  * Interface for pages.
@@ -29,25 +32,14 @@ interface Page
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Echos the response to a (normal) HTTP request.
+   * Handles the HTTP request and returns a Response object.
    *
-   * @return void
-   *
-   * @api
-   * @since 1.0.0
-   */
-  public function echoPage(): void;
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
-   * Echos the response to an XMLHttpRequest (XHR) request.
-   *
-   * @return void
+   * @return Response
    *
    * @api
    * @since 1.0.0
    */
-  public function echoXhrResponse(): void;
+  public function handleRequest(): Response;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**

@@ -1,8 +1,8 @@
 {
   "name": "setbased/abc-page",
-  "description": "ABC-Framework: Page",
+  "description": "SetBased ABC-Framework: Page",
   "keywords": [
-    "ABC-Framework",
+    "SetBased ABC-Framework",
     "Page"
   ],
   "require": {

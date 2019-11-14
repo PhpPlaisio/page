@@ -1,18 +1,18 @@
 {
-  "name": "setbased/abc-page",
-  "description": "SetBased ABC-Framework: Page",
+  "name": "plaisio/page",
+  "description": "PhpPlaisio: Page",
   "keywords": [
-    "SetBased ABC-Framework",
+    "PhpPlaisio",
     "Page"
   ],
   "require": {
     "php": ">=7.1.0",
-    "setbased/abc-response": "^1.0.0"
+    "plaisio/response": "^2.0.0"
   },
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Page\\": "src/"
+      "Plaisio\\\\Page\\": "src/"
     }
   }
 }

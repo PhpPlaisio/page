@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace SetBased\Abc\Page;
+namespace Plaisio\Page;
 
-use SetBased\Abc\Response\Response;
+use Plaisio\Response\Response;
 
 /**
  * Interface for pages.
@@ -18,8 +18,8 @@ interface Page
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * This method will be called before method echoPage is been called. Any additional and/or page specific authorization
-   * and/or security checks can be implemented in this method.
+   * This method will be called before method handleRequest() is been called. Any additional and/or page specific
+   * authorization and/or security checks can be implemented in this method.
    *
    * When a HTTP request must be denied a NotAuthorizedException must be raised.
    *

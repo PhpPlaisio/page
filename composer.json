@@ -7,7 +7,7 @@
   ],
   "require": {
     "php": ">=7.3",
-    "plaisio/response": "^1.1"
+    "plaisio/response": "^2.0"
   },
   "license": "MIT",
   "autoload": {

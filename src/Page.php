@@ -18,7 +18,7 @@ interface Page
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * This method will be called before method handleRequest() is been called. Any additional and/or page specific
+   * This method will be called before method handleRequest() has been called. Any additional and/or page specific
    * authorization and/or security checks can be implemented in this method.
    *
    * When a HTTP request must be denied a NotAuthorizedException must be raised.
@@ -46,7 +46,7 @@ interface Page
    * If this page can be requested via multiple URI's and one URI is preferred this method must return the preferred URI
    * of this page.
    *
-   * Typically this method will be used when the URL contains some ID and an additional title.
+   * Typically, this method will be used when the URL contains some ID and an additional title.
    * Example:
    * Initially a page with an article about a book is created with title "Harry Potter and the Sorcerer's Stone" and the
    * URI is /book/123456/Harry-Potter-and-the-Sorcerer's-Stone.html. After this article has been edited the URI is

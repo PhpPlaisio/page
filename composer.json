@@ -6,13 +6,26 @@
     "Page"
   ],
   "require": {
-    "php": ">=7.3",
-    "plaisio/response": "^2.0"
+    "php": ">=8.1",
+    "plaisio/response": "^2.1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "ext-dom": "*",
+    "phing/phing": "^3.0.0-RC4"
   },
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "Plaisio\\Page\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "sort-packages": true,
+    "allow-plugins": {
+      "phing/phing-composer-configurator": true
     }
   }
 }

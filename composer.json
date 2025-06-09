@@ -7,7 +7,7 @@
   ],
   "require": {
     "php": ">=8.3",
-    "plaisio/response": "^2.1.0"
+    "plaisio/response": "^2.2.0"
   },
   "require-dev": {
     "ext-dom": "*",
